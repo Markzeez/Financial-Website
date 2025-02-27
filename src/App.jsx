@@ -1,49 +1,25 @@
-
 import './App.css'
-import FirstInfo from './Component/FirstInfo'
+import Confident from './Component/Confident'
+import Elevate from './Component/Elevate'
+import Financial from './Component/Financial'
+import Intro from './Component/Intro'
 import Navbar from './Component/Navbar'
-import SecondInfo from './Component/SecondInfo'
-import ThirdInfo from './Component/ThirdInfo'
-import FourthInfo from './Component/FourthInfo'
-import Seveninfo from './Component/Seveninfo'
-import EightInfo from './EightInfo'
-import NinthInfo from './NinthInfo'
-import Tenthinfo from './Component/TenthInfo'
-import ElevenInfo from './Component/ElevenInfo'
-import TweleveInfo from './Component/TweleveInfo'
-import Numberinfo from './Component/Numberinfo'
-import ImageInfo from './Component/ImageInfo'
-import IntroInfo from './Component/IntroInfo'
-import CardInfo from './Component/CardInfo'
-import CardInfo2 from './CardInfo2'
-import Cardinfo3 from './Cardinfo3'
-
-
+import Next from './Component/Next'
+import Last from './Component/Last'
 function App() {
-  
+
 
   return (
-    <>
-    <Navbar/>
-    <FirstInfo/>
-    <SecondInfo/>
-    <ThirdInfo/>
-    <FourthInfo/>
-    <Seveninfo/>
-    <NinthInfo/>
-    <EightInfo/>
-    <Tenthinfo/>
-    <ElevenInfo/>
-    <TweleveInfo/>
-    <Numberinfo/>
-    <ImageInfo/>
-    <IntroInfo/>
-    <CardInfo/>
-    <CardInfo2/>
-    <Cardinfo3/>
-  
-    
-    </>
+    <div className="font-sfProDisplay font-normal">
+      <Navbar />
+      <Intro/>
+      <Elevate />
+      <Financial />
+      <Confident />
+      <Next/>
+      <Last />
+      
+    </div>
   )
 }
 
