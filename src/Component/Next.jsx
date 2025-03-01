@@ -3,7 +3,7 @@ import React from 'react';
 import Slider, { Settings } from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
+// import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 
 
 function Next() {

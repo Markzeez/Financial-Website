@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import { ArrowsleftRight, CircleStack, Money } from '../assets';
+// import { ArrowsleftRight, CircleStack, Money } from '../assets';
 
 const Financial = () => {
   return (
@@ -33,7 +33,8 @@ const Financial = () => {
           <div className="text-white flex flex-col lg:flex-row  gap-8 justify-start">
             <div className="text-start flex flex-col gap-2">
               <span className=" flex items-center gap-2 font-medium">
-                <Money /> <p>No minimum balance fees</p>
+                {/* <Money /> */}
+                 <p>No minimum balance fees</p>
               </span>
               <p className="text-[#989898] text-base ">
                 Say goodbye to minimum balance fees. Your account, your
@@ -42,7 +43,8 @@ const Financial = () => {
             </div>
             <div className="text-start flex flex-col gap-2 font-medium">
               <span className=" flex items-center gap-2">
-                <CircleStack /> <p>No monthly fees</p>
+                {/* <CircleStack /> */}
+                 <p>No monthly fees</p>
               </span>
               <p className="text-[#989898] ">
                 Bank with us without worrying about monthly fees. Keep more of
@@ -51,7 +53,8 @@ const Financial = () => {
             </div>
             <div className="text-start flex flex-col gap-2 font-medium">
               <span className=" flex items-center gap-2">
-                <ArrowsleftRight /> <p>No bank transfer fees</p>
+                {/* <ArrowsleftRight />  */}
+                <p>No bank transfer fees</p>
               </span>
               <p className="text-[#989898] ">
                 Seamlessly transfer funds without the extra cost. Send and

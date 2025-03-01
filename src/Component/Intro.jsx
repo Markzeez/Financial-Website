@@ -1,6 +1,6 @@
 import React from "react";
-import Mobileimg from "../assets/Frame 31.png";
-import Desktopimg from "../assets/Frame 31 (1).png";
+import Mobileimg from "../assets/png/Frame 31.png";
+import Desktopimg from "../assets/png/Frame 31 (1).png";
 import bloomberg from "../assets/png/bloomberg-1.png";
 import cnbc from "../assets/png/cnbc-1.png";
 import cnn from "../assets/png/cnn-logo 1.png";
